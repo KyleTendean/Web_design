@@ -1,0 +1,61 @@
+body {
+    font-family:cursive;
+}
+nav {
+    background-color: #DEC37E;
+    font-family: Helvetica;
+    
+}
+
+
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    position:relative ;
+    
+
+}
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5;
+    top: -3;
+    opacity: 0;
+    cursor: pointer;
+    background-color: khaki;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #69421C;
+    border-radius: 3px;
+}
+
+
+
+
+section {
+    
+    color: #69421C;
+    border-style: none;
+    font-size: 2em; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+footer {
+    background-color: #DEC37E;
+    border-style: solid;
+    border-top-color: #ffffff;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+
+
